@@ -1,0 +1,7 @@
+{
+    "name": "${localWorkspaceFolderBasename}",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/workspace",
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+}
